@@ -15,7 +15,7 @@ services:
   php:
     image: php:8.3-cli
     container_name: <<nomDuContainer>>
-    working_dir: /app
+    working_dir: /app/<<nomDuProjetSymfony>>
     command: tail -f /dev/null
     stdin_open: true
     tty: true
