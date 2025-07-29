@@ -8,7 +8,7 @@ mkdir <<monDuProjetSymfony>>
 cd <<monDuProjetSymfony>>
 ```
 
-✅ Étape 2 : Créer un `docker-compose.yml` **minimal**, sans `version`
+✅ Étape 2 : Créer un `docker-compose.yml` **minimal**
 
 ```bash
 services:
