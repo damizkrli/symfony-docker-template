@@ -86,3 +86,17 @@ docker compose up -d
 ```bash
 php bin/console cache:clear
 ```
+
+✅ Étape 13. **Rentre dans le conteneur et teste**
+
+```bash
+docker compose exec php bash
+```
+
+```bash
+php bin/console
+```
+
+```bash
+php -S 0.0.0.0:8000 -t public
+```
